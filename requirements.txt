@@ -1,0 +1,14 @@
+torch
+torchvision
+torchaudio
+monai
+nibabel
+simpleitk
+streamlit
+numpy
+pandas
+matplotlib
+einops
+tqdm
+scikit-image
+scikit-learn
