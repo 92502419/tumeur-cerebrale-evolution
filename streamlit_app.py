@@ -334,7 +334,7 @@ def load_csv_if_exists(path: str) -> Optional[pd.DataFrame]:
 # UI
 # =========================
 st.set_page_config(page_title="Tumor Evolution Dashboard", layout="centered")
-st.title(" EVOLUTION DE TUMEUR — TABLEAU DE BORD (1 colonne, aspect mm)")
+st.title(" EVOLUTION DE TUMEUR — TABLEAU DE BORD ")
 
 with st.sidebar:
     st.header(" Importation et Options")
@@ -471,3 +471,4 @@ if run_btn and uploads:
 else:
     st.info(" Importez 1 à 3 fichiers NIfTI dans la barre latérale, ajustez les options, puis cliquez sur **ANALYSER**.")
     st.caption("Astuce : pour l'évolution spatio-temporelle, chargez t1, t2 (et optionnellement t3 pour comparer).")
+
